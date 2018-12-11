@@ -1,9 +1,8 @@
 # round-robin-generator
-Round-Robin generator designed for FPV Racing.
+Round-Robin generator designed for FPV Racing. The script generates random heats every round with the given pilots, but makes sure every pilot encounters every other pilots close to the same amount of times. The algorithm is not perfect yet, but it's practically usable for FPV races using a round robin system.
 
-Usage:
 
-Fill in the pilot names in the file, then run it:
+To use it, fill in the pilot names in the file, then run it from the command line with some optional parameters
 
 ```python fpv-round-robin.py [rounds] [pilots_per_heat] [debug]```
 
